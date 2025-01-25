@@ -2,29 +2,26 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("задача 1");
-        int age = 15;
+        int age = 26;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 
         System.out.println("\nзадача 2");
-        int airTemperature = 7;
+        int airTemperature = 3;
         if (airTemperature < 5) {
             System.out.println("На улице " + airTemperature + " градус(а/ов), нужно надеть шапку");
-        }
-        if (airTemperature > 5) {
+        } else {
             System.out.println("На улице " + airTemperature + " градус(а/ов), можно идти без шапки");
         } // в задаче нет условия, что вывести в консоль, если температура = 5, поэтому при значении 5 вывода в консоль нет
 
         System.out.println("\nзадача 3");
-        int speedCar = 61;
+        int speedCar = 60;
         if (speedCar > 60) {
             System.out.println("Если скорость " + speedCar + ", то придется заплатить штраф");
-        }
-        if (speedCar <= 60) {
+        } else {
             System.out.println("Если скорость " + speedCar + ", то можно ездить спокойно");
         }
 
